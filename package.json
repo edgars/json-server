@@ -1,0 +1,25 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "rest apis based on json file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgars/json-server.git"
+  },
+  "author": "Edgar@Skalena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgars/json-server/issues"
+  },
+  "homepage": "https://github.com/edgars/json-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-basic-auth": "^1.2.1",
+    "json-server": "^0.17.0"
+  }
+}
